@@ -1,0 +1,23 @@
+.childrens {
+  width: 93%;
+  margin: auto;
+  padding: 0;
+}
+
+@media (min-width: 765px) {
+  .childrens {
+    width: 77%;
+    margin: auto;
+    padding: 0;
+  }
+}
+
+
+.css-19kzrtu {
+  padding: 6px 6px !important;
+  /* margin-left: -5px !important; */
+}
+.css-xn6ruc {
+  margin-left: -5px !important;
+}
+
