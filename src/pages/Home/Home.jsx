@@ -16,7 +16,7 @@ import CommonTable from '../CommonTable';
 const Home = () => {
     const [P, setP] = useState(100000);
     const [R, setR] = useState(8.5);
-    const [N, setN] = useState(5);
+    const [N, setN] = useState(1);
     const [emiData, setEmiData] = useState(null);
     const { rates, getData, loading } = useAppContext();
     const [Currency, setCurrency] = React.useState('USD');
