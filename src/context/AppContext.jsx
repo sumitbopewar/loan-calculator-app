@@ -13,9 +13,10 @@ export const AppProvider = ({ children }) => {
     const getData = async (baseCurrency = "USD") => {
         // console.log(baseCurrency, "baseCurrency---------");
         try {
-            let res = await axios.get(`https://v6.exchangerate-api.com/v6/d5394cdde95ff1c746f9dfc6/latest/${baseCurrency}`).then(res =>
+            let res = await axios.get(`https://v6.exchangerate-api.com/v6/6a276e4e8ff8e3a2f7f702d7/latest/${baseCurrency}`).then(res =>
                 setRates(res.data.conversion_rates || {})
             )
+            console.log(res)
         } catch (error) {
             console.error("Error fetching exchange rates:", error);
         } finally {
